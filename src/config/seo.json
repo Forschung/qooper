@@ -1,0 +1,11 @@
+{
+    "HtmlLanguage": "en",
+    "Head": {
+        "Title": "Qooper",
+        "Meta": {
+            "Sitename": "Qooper",
+            "Description": "Qooper Website",
+            "BaseUrl": "https://www.qooper.io"
+        }
+    }
+}
