@@ -26,7 +26,7 @@ And you can easily tie this app into your firebase app just by changing the rela
 
 This project completed for Qooper.IO review. But anyone can use it without too much effort. 
 
-There are 4 customized components inside the project. Button, Input, Link, and Meta. You can find them under the components folder.
+There are 5 customized components inside the project. Button, Input, Link, Placement, and Meta. You can find them under the components folder.
 
 Lastly, you will find a Icons.xd file under the public/assets/favicon path. The file is designed for enterprise level applications icon integration. I love it too much and willing to share it as well.
 

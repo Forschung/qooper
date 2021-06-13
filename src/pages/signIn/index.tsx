@@ -12,9 +12,9 @@ import { makeStyles, Theme } from '@material-ui/core/styles';
 
 // Components
 import Meta from 'components/meta';
-import Link from 'components/link';
 import Button from 'components/button';
 import Todo from 'components/toDo/index';
+import Placement from 'components/placement';
 
 export interface FHomepageProps {
     text?: string;
@@ -73,6 +73,19 @@ function ToDoApp({ uid }: { uid: string }) {
     }, []);
   
     return (
-        <Todo />
+        <Placement 
+          desktop={
+            <Box>
+              <Typography>Desktop View</Typography>
+              <Todo />
+            </Box>
+          }
+          mobile={
+            <Box>
+              <Typography>Mobile View</Typography>
+              <Todo />
+            </Box>
+          } 
+        />
       );
 }
