@@ -5,8 +5,13 @@ import React, { useEffect, useState } from 'react';
 import Box from '@material-ui/core/Box';
 import { makeStyles, Theme } from '@material-ui/core/styles';
 
-// Utilities
-import { FPlacementProps } from 'utils/interfaces/atoms/components';
+export interface FPlacementProps {
+    mobile?: any;
+    desktop?: any;
+    mobileView?: boolean;
+    desktopView?: boolean;
+    minWidth?: number | string;
+}
 
 export const useStyles = makeStyles((theme: Theme) => ({
     root: ({ }: FPlacementProps) => ({
